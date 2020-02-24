@@ -23,6 +23,7 @@ class HomeController: UIViewController {
 
     @IBAction func onClick(_ sender: Any) {
         titleLabel.text = inputLabel.text
+        titleLabel.text = "test"
     }
     
     @IBAction func menuClicked(_ sender: Any) {
